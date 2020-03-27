@@ -196,6 +196,221 @@ var _hmt = _hmt || [];
 
 
   
+    <article id="post-android_debug" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2020/03/28/android_debug/" target="_blank">Xamarin.Android Debug记录</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2020/03/28/android_debug/" class="archive-article-date">
+        <time datetime="2020-03-27T16:36:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-28</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <blockquote>
+<p>记录Xamarin.Android的Debug错误 </p>
+</blockquote>
+<h2 id="1-Resources目录下styles-xml报错"><a href="#1-Resources目录下styles-xml报错" class="headerlink" title="1.Resources目录下styles.xml报错"></a>1.<code>Resources</code>目录下<code>styles.xml</code>报错</h2><p><code>No resource found that matches the given name: attr &#39;windowActionModeOverlay&#39;.</code>        </p>
+<p>删除以下缓存文件夹</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\&lt;my user&gt;\AppData\Local\Xamarin</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>Using Visual Studio 2015 (Windows7) + Xamarin had this error and after trying multiple things (installing packages, download android_m2repository_r10.zip…) ended removing the full <strong>Xamarin folder</strong> inside</p>
+<p><a href="https://stackoverflow.com/questions/21900853/no-resource-found-theme-appcompat-light-darkactionbar" target="_blank" rel="noopener">https://stackoverflow.com/questions/21900853/no-resource-found-theme-appcompat-light-darkactionbar</a></p>
+<h2 id="2-“java-exe”已退出，代码为-1"><a href="#2-“java-exe”已退出，代码为-1" class="headerlink" title="2.“java.exe”已退出，代码为 1"></a>2.<code>“java.exe”已退出，代码为 1</code></h2><p>​    </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1&gt;MSB6006: “java.exe”已退出，代码为 1。</span><br><span class="line">1&gt;已完成生成项目“xxxxx.xxxx.Android.csproj”的操作 - 失败。</span><br><span class="line">1&gt;生成失败。</span><br><span class="line">1&gt;Deployment failed to Xiaomi MI 4LTE.</span><br></pre></td></tr></table></figure>
+
+<p>几乎把stackoverflow的帖子翻遍了，排查了各种环境配置，都没有用。<br>过了一个多礼拜，就是今天，忽然想起去年升级win10 1909后手动开启了一项Beta性功能：开启系统级utf8支持<br>关闭此功能，重启，打开VS，清空解决方案，生成，然后就OK了！！！<br>真的是醉了-_-||<br>所以说，<strong>开发机器还是稳一手，别手痒，启用新功能的代价可能是指数级增加Debug难度</strong></p>
+
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Xamarin</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Android</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">.NET</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/技术//" class="article-tag-list-link color3">技术</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/03/28/android_debug/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-deepin-skip-disk-limition" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2020/03/15/deepin-skip-disk-limition/" target="_blank">deepin跳过硬盘安装限制</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2020/03/15/deepin-skip-disk-limition/" class="archive-article-date">
+        <time datetime="2020-03-15T05:36:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-15</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <p> 前几天把闲置的 <a href="https://www.cnblogs.com/amoxidu/p/7285541.html" target="_blank" rel="noopener">cb2</a> 从<a href="https://galliumos.org/" target="_blank" rel="noopener">GalliumOS</a>换到了<a href="https://deepin.org/" target="_blank" rel="noopener">deepin</a><br>但是deepin15.7安装时对硬盘有限制，最小大小为16G。<br>修改其安装器的配置文件<code>/etc/deepin-installer.conf</code>配置项<code>partition_minimum_disk_space_required = 16</code>中的数字为适合大小即可。 </p>
+
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/技术//" class="article-tag-list-link color3">技术</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/03/15/deepin-skip-disk-limition/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-DBports" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -2319,15 +2534,7 @@ var _hmt = _hmt || [];
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Coding</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">DB</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -2335,7 +2542,27 @@ var _hmt = _hmt || [];
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Xamarin</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Android</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">.NET</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Linux</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Coding</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
               </li>
             
             <div class="clearfix"></div>
