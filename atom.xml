@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>壹帽博客</title>
+  <icon>https://blog.onehat.cn/fa-solid%20fa-rss</icon>
+  <subtitle>dsf的个人博客</subtitle>
+  <link href="https://blog.onehat.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.onehat.cn/"/>
+  <updated>2024-10-11T05:21:01.000Z</updated>
+  <id>https://blog.onehat.cn/</id>
+  
+  <author>
+    <name>Chauncey</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>双网卡设置内外网静态路由</title>
+    <link href="https://blog.onehat.cn/p/7b7a.html"/>
+    <id>https://blog.onehat.cn/p/7b7a.html</id>
+    <published>2024-10-09T10:29:00.000Z</published>
+    <updated>2024-10-11T05:21:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录使用在双网卡设置静态路由，实现一台机内外网同时连接。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="网络" scheme="https://blog.onehat.cn/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文明6知识点汇总</title>
+    <link href="https://blog.onehat.cn/p/cd85.html"/>
+    <id>https://blog.onehat.cn/p/cd85.html</id>
+    <published>2024-09-24T12:16:48.000Z</published>
+    <updated>2024-10-24T10:23:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;《 &lt;strong&gt;文明VI&lt;/strong&gt; 》是由 &lt;code&gt;Firaxis Games&lt;/code&gt;开发的回合策略游戏，是 &lt;code&gt;文明系列&lt;/code&gt;的最新作品，同时是庆祝该系列25周年的作品（以下简称 &lt;code&gt;文明6&lt;/code&gt;）。&lt;br&gt;本文汇总游玩过程中具备参考意义的一些玩法机制、数据、设定，仅供参考，所使用游戏版本为Steam文明6典藏版。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="娱乐中心" scheme="https://blog.onehat.cn/categories/%E5%A8%B1%E4%B9%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="游戏" scheme="https://blog.onehat.cn/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="文明" scheme="https://blog.onehat.cn/tags/%E6%96%87%E6%98%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文明6基准测试</title>
+    <link href="https://blog.onehat.cn/p/4104.html"/>
+    <id>https://blog.onehat.cn/p/4104.html</id>
+    <published>2024-08-14T09:29:39.000Z</published>
+    <updated>2024-08-14T09:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录自己PC设备的文明6基准测试。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="娱乐中心" scheme="https://blog.onehat.cn/categories/%E5%A8%B1%E4%B9%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="游戏" scheme="https://blog.onehat.cn/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="游戏测试" scheme="https://blog.onehat.cn/tags/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8下iStoreOS_x86根分区扩容</title>
+    <link href="https://blog.onehat.cn/p/bd39.html"/>
+    <id>https://blog.onehat.cn/p/bd39.html</id>
+    <published>2024-06-05T02:29:39.000Z</published>
+    <updated>2024-06-05T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在pve上面安装了iStoreOS虚拟机，默认根分区只有2.5 G空间，此处记录扩容根分区过程（增加20G）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="iStoreOS" scheme="https://blog.onehat.cn/tags/iStoreOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NAS快速跨磁盘拷贝数据</title>
+    <link href="https://blog.onehat.cn/p/fc3d.html"/>
+    <id>https://blog.onehat.cn/p/fc3d.html</id>
+    <published>2024-05-05T13:46:39.000Z</published>
+    <updated>2024-05-05T13:46:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录使用 &lt;code&gt;ServerSide Copy&lt;/code&gt;实现快速文件拷贝。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="NAS" scheme="https://blog.onehat.cn/tags/NAS/"/>
+    
+    <category term="SMB" scheme="https://blog.onehat.cn/tags/SMB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu镜像站网速比拼</title>
+    <link href="https://blog.onehat.cn/p/9a33.html"/>
+    <id>https://blog.onehat.cn/p/9a33.html</id>
+    <published>2024-03-12T16:29:39.000Z</published>
+    <updated>2024-03-12T16:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Ubuntu镜像站网速比拼！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    <category term="里甲" scheme="https://blog.onehat.cn/categories/%E9%87%8C%E7%94%B2/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://blog.onehat.cn/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CloudflareTunnel内网穿透</title>
+    <link href="https://blog.onehat.cn/p/cbe0.html"/>
+    <id>https://blog.onehat.cn/p/cbe0.html</id>
+    <published>2024-03-09T02:29:39.000Z</published>
+    <updated>2024-03-09T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录CloudflareTunnel内网穿透操作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Cloudflare" scheme="https://blog.onehat.cn/tags/Cloudflare/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转载--SSMS格式化插件SQL Printer for SSMS破解</title>
+    <link href="https://blog.onehat.cn/p/89b9.html"/>
+    <id>https://blog.onehat.cn/p/89b9.html</id>
+    <published>2024-02-20T08:05:39.000Z</published>
+    <updated>2024-02-20T08:05:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;使用dnSpy去除插件的试用提示。&lt;/p&gt;
+&lt;p&gt;管理员权限打开dnSpy，定位到指定函数，[编辑类]，修改后保存即可。&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://www.52pojie.cn/thread-1416605-1-1.html&quot;&gt;https://www.52pojie.cn/thread-1416605-1-1.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    <category term="获取信息源" scheme="https://blog.onehat.cn/categories/%E8%8E%B7%E5%8F%96%E4%BF%A1%E6%81%AF%E6%BA%90/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="MSSQL" scheme="https://blog.onehat.cn/tags/MSSQL/"/>
+    
+    <category term=".NET" scheme="https://blog.onehat.cn/tags/NET/"/>
+    
+    <category term="转载" scheme="https://blog.onehat.cn/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>syslog实践</title>
+    <link href="https://blog.onehat.cn/p/7ea6.html"/>
+    <id>https://blog.onehat.cn/p/7ea6.html</id>
+    <published>2024-01-28T09:20:39.000Z</published>
+    <updated>2024-01-28T09:20:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;目标是要把各个设备的系统日志收集起来，便于集中管理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Unraid" scheme="https://blog.onehat.cn/tags/Unraid/"/>
+    
+    <category term="Debian" scheme="https://blog.onehat.cn/tags/Debian/"/>
+    
+    <category term="Windows" scheme="https://blog.onehat.cn/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WindowsServer下MySQL5.7配置</title>
+    <link href="https://blog.onehat.cn/p/7919.html"/>
+    <id>https://blog.onehat.cn/p/7919.html</id>
+    <published>2023-11-30T02:29:39.000Z</published>
+    <updated>2023-11-30T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录绿色版MySQL5.7的安装、配置。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="WindowsServer" scheme="https://blog.onehat.cn/tags/WindowsServer/"/>
+    
+    <category term="MySQL" scheme="https://blog.onehat.cn/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Everything HTTP服务显示磁盘标签</title>
+    <link href="https://blog.onehat.cn/p/ebb.html"/>
+    <id>https://blog.onehat.cn/p/ebb.html</id>
+    <published>2023-10-25T02:29:39.000Z</published>
+    <updated>2023-10-25T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Everything开启配置实现在HTTP服务器显示磁盘标签。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="软件" scheme="https://blog.onehat.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="Everything" scheme="https://blog.onehat.cn/tags/Everything/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker安装Oracle11g数据库并进行持久化</title>
+    <link href="https://blog.onehat.cn/p/e850.html"/>
+    <id>https://blog.onehat.cn/p/e850.html</id>
+    <published>2023-10-23T02:29:39.000Z</published>
+    <updated>2023-10-23T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录使用docker安装Oracle11g，持久化需要使用Unraid docker的发布参数功能。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Unraid" scheme="https://blog.onehat.cn/tags/Unraid/"/>
+    
+    <category term="数据库" scheme="https://blog.onehat.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="Oracle" scheme="https://blog.onehat.cn/tags/Oracle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8安装LXC版本Jellyfin并启用硬解</title>
+    <link href="https://blog.onehat.cn/p/834f.html"/>
+    <id>https://blog.onehat.cn/p/834f.html</id>
+    <published>2023-10-05T01:29:39.000Z</published>
+    <updated>2023-10-05T01:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录在PVE8虚拟化平台下安装LXC容器以实现Jellyfin的核显硬解，原则上适用于所有12-13代英特尔核显。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    <category term="娱乐中心" scheme="https://blog.onehat.cn/categories/%E5%A8%B1%E4%B9%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="NAS" scheme="https://blog.onehat.cn/tags/NAS/"/>
+    
+    <category term="HomeLab" scheme="https://blog.onehat.cn/tags/HomeLab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker开启远程API</title>
+    <link href="https://blog.onehat.cn/p/2c94.html"/>
+    <id>https://blog.onehat.cn/p/2c94.html</id>
+    <published>2023-09-30T02:29:39.000Z</published>
+    <updated>2024-04-27T07:23:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;docker提供rest api服务，开启后可以使用第三方管理工具进行Docker管理。一般情况下，会使用2375端口号。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Docker" scheme="https://blog.onehat.cn/tags/Docker/"/>
+    
+    <category term="Unriad" scheme="https://blog.onehat.cn/tags/Unriad/"/>
+    
+    <category term="群晖" scheme="https://blog.onehat.cn/tags/%E7%BE%A4%E6%99%96/"/>
+    
+    <category term="NAS" scheme="https://blog.onehat.cn/tags/NAS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的HomeLab入坑之路</title>
+    <link href="https://blog.onehat.cn/p/a169.html"/>
+    <id>https://blog.onehat.cn/p/a169.html</id>
+    <published>2023-09-26T01:29:39.000Z</published>
+    <updated>2024-10-22T10:23:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录自己的homelab入坑之路。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="群晖" scheme="https://blog.onehat.cn/tags/%E7%BE%A4%E6%99%96/"/>
+    
+    <category term="NAS" scheme="https://blog.onehat.cn/tags/NAS/"/>
+    
+    <category term="HomeLab" scheme="https://blog.onehat.cn/tags/HomeLab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8虚拟机迁移到ESXi</title>
+    <link href="https://blog.onehat.cn/p/adb8.html"/>
+    <id>https://blog.onehat.cn/p/adb8.html</id>
+    <published>2023-09-23T02:29:39.000Z</published>
+    <updated>2023-09-23T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文迁移对象为虚拟机磁盘，而非虚拟机整机。即借助PVE命令行工具 &lt;code&gt;qemu-img&lt;/code&gt;、ESXi命令行工具 &lt;code&gt;vmkfstools&lt;/code&gt;做磁盘格式转换。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;qemu-img&lt;/code&gt;不局限PVE环境，在大多数基于kvm的虚拟化平台都可用。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="ESXi" scheme="https://blog.onehat.cn/tags/ESXi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu22.04开启RDP远程桌面</title>
+    <link href="https://blog.onehat.cn/p/f62e.html"/>
+    <id>https://blog.onehat.cn/p/f62e.html</id>
+    <published>2023-09-14T02:29:39.000Z</published>
+    <updated>2023-09-14T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录如何使用默认设置开启Ubuntu的远程桌面连接（RDP）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu22.04使用SSSD加入AD域</title>
+    <link href="https://blog.onehat.cn/p/97b7.html"/>
+    <id>https://blog.onehat.cn/p/97b7.html</id>
+    <published>2023-09-05T02:29:39.000Z</published>
+    <updated>2023-09-05T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录Ubuntu如何接入AD域，linux系统加入AD域的方式有很多种，SSSD是其中的一种。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://blog.onehat.cn/tags/Ubuntu/"/>
+    
+    <category term="AD域" scheme="https://blog.onehat.cn/tags/AD%E5%9F%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu22.04安装RTL8125B驱动</title>
+    <link href="https://blog.onehat.cn/p/59dc.html"/>
+    <id>https://blog.onehat.cn/p/59dc.html</id>
+    <published>2023-07-25T02:29:39.000Z</published>
+    <updated>2023-07-25T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;购入了一块RTL8125BG的4口2.5G网卡（PCIE x4接口），记录一下在Uuntu下安装官方驱动程序。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://blog.onehat.cn/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8添加PCIE网卡后导致网卡编号变化</title>
+    <link href="https://blog.onehat.cn/p/54f9.html"/>
+    <id>https://blog.onehat.cn/p/54f9.html</id>
+    <published>2023-07-13T02:29:39.000Z</published>
+    <updated>2023-07-13T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录PVE8.0装好系统后添加网卡导致的网卡变化。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Debian" scheme="https://blog.onehat.cn/tags/Debian/"/>
+    
+  </entry>
+  
+</feed>
