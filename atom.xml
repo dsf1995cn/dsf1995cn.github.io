@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>壹帽博客</title>
+  <icon>https://blog.onehat.cn/fa-solid%20fa-rss</icon>
+  <subtitle>dsf 的个人博客</subtitle>
+  <link href="https://blog.onehat.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.onehat.cn/"/>
+  <updated>2025-03-01T06:30:36.000Z</updated>
+  <id>https://blog.onehat.cn/</id>
+  
+  <author>
+    <name>Chauncey</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>信件：《致 2018 年毕业季的自己的一封短信》</title>
+    <link href="https://blog.onehat.cn/p/eac2.html"/>
+    <id>https://blog.onehat.cn/p/eac2.html</id>
+    <published>2025-03-01T06:30:36.000Z</published>
+    <updated>2025-03-01T06:30:36.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近搬家翻出一份独特的信，是我在大一期间写给大四的自己，博主在 2014.9-2018.7 于郑州大学完成本科学业。&lt;/p&gt;
+&lt;p&gt;这封信在形式上是为了应付辅导员下发的任务，现在看来倒是别有一番滋味。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="剧院广场" scheme="https://blog.onehat.cn/categories/%E5%89%A7%E9%99%A2%E5%B9%BF%E5%9C%BA/"/>
+    
+    
+    <category term="成长" scheme="https://blog.onehat.cn/tags/%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记梦：公交奇缘</title>
+    <link href="https://blog.onehat.cn/p/a700.html"/>
+    <id>https://blog.onehat.cn/p/a700.html</id>
+    <published>2025-01-03T06:20:58.000Z</published>
+    <updated>2025-01-03T06:20:58.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录 2025 年 1 月 2 日的梦境。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="神秘主义" scheme="https://blog.onehat.cn/categories/%E7%A5%9E%E7%A7%98%E4%B8%BB%E4%B9%89/"/>
+    
+    
+    <category term="记梦" scheme="https://blog.onehat.cn/tags/%E8%AE%B0%E6%A2%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8 下虚拟磁盘设置 TRIM</title>
+    <link href="https://blog.onehat.cn/p/5355.html"/>
+    <id>https://blog.onehat.cn/p/5355.html</id>
+    <published>2024-12-29T07:12:35.000Z</published>
+    <updated>2024-12-29T07:12:35.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;TRIM 是 SSD 进行回收硬盘上未使用的块的方法，该块可能先前已被写入，但不再包含有效数据，因此可以返回到通用存储池以供重用。&lt;br&gt;对于 PVE 管理的虚拟磁盘，则需要进行相关设置才能正常触发。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Windows Server" scheme="https://blog.onehat.cn/tags/Windows-Server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8 下 Rocky Linux 9 根分区扩容</title>
+    <link href="https://blog.onehat.cn/p/7146.html"/>
+    <id>https://blog.onehat.cn/p/7146.html</id>
+    <published>2024-12-15T13:59:41.000Z</published>
+    <updated>2024-12-15T13:59:41.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有台 Rocky Linux 9 虚拟机根分区空间不足，记录对其扩容的操作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS 字体平滑：本站切换字体的尝试</title>
+    <link href="https://blog.onehat.cn/p/f85a.html"/>
+    <id>https://blog.onehat.cn/p/f85a.html</id>
+    <published>2024-12-09T06:30:36.000Z</published>
+    <updated>2024-12-09T06:30:36.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录 CSS 字体平滑开启与否对显示效果的影响。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="CSS" scheme="https://blog.onehat.cn/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rocky Linux 9 调整 swap 空间</title>
+    <link href="https://blog.onehat.cn/p/4a82.html"/>
+    <id>https://blog.onehat.cn/p/4a82.html</id>
+    <published>2024-12-07T06:38:29.000Z</published>
+    <updated>2024-12-07T06:38:29.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;swap 空间，即交换空间，是 Linux 系统中类似 Windows 虚拟内存的机制，它旨在帮助设备，应对内存消耗大于内存容量的场景。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Zabbix" scheme="https://blog.onehat.cn/tags/Zabbix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>现代诗：《我》</title>
+    <link href="https://blog.onehat.cn/p/937c.html"/>
+    <id>https://blog.onehat.cn/p/937c.html</id>
+    <published>2024-12-06T03:51:10.000Z</published>
+    <updated>2024-12-06T03:51:10.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;《我》，是一首现代诗，于 2024 年 12 月 6 日中午，有感而作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="剧院广场" scheme="https://blog.onehat.cn/categories/%E5%89%A7%E9%99%A2%E5%B9%BF%E5%9C%BA/"/>
+    
+    
+    <category term="现代诗" scheme="https://blog.onehat.cn/tags/%E7%8E%B0%E4%BB%A3%E8%AF%97/"/>
+    
+    <category term="成长" scheme="https://blog.onehat.cn/tags/%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Zabbix 7 添加企业微信机器人告警</title>
+    <link href="https://blog.onehat.cn/p/66a8.html"/>
+    <id>https://blog.onehat.cn/p/66a8.html</id>
+    <published>2024-12-02T06:38:29.000Z</published>
+    <updated>2024-12-02T06:38:29.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录 Zabbix 添加企业微信机器人所使用的脚本（不包含在 Zabbix 界面上进行的配置）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Docker" scheme="https://blog.onehat.cn/tags/Docker/"/>
+    
+    <category term="Zabbix" scheme="https://blog.onehat.cn/tags/Zabbix/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页离线存储之道</title>
+    <link href="https://blog.onehat.cn/p/517b.html"/>
+    <id>https://blog.onehat.cn/p/517b.html</id>
+    <published>2024-11-02T03:22:33.000Z</published>
+    <updated>2024-11-02T03:22:33.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;本文记录桌面端环境下对网页离线存储、备份、浏览的方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="Docker" scheme="https://blog.onehat.cn/tags/Docker/"/>
+    
+    <category term="NAS" scheme="https://blog.onehat.cn/tags/NAS/"/>
+    
+    <category term="MHTML" scheme="https://blog.onehat.cn/tags/MHTML/"/>
+    
+    <category term="Chrome" scheme="https://blog.onehat.cn/tags/Chrome/"/>
+    
+    <category term="Github" scheme="https://blog.onehat.cn/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>双网卡设置内外网静态路由</title>
+    <link href="https://blog.onehat.cn/p/7b7a.html"/>
+    <id>https://blog.onehat.cn/p/7b7a.html</id>
+    <published>2024-10-09T10:29:00.000Z</published>
+    <updated>2024-10-11T05:21:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录在双网卡设置静态路由，实现一台机内外网同时连接。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="网络" scheme="https://blog.onehat.cn/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文明 6 知识点汇总</title>
+    <link href="https://blog.onehat.cn/p/cd85.html"/>
+    <id>https://blog.onehat.cn/p/cd85.html</id>
+    <published>2024-09-24T12:16:48.000Z</published>
+    <updated>2024-10-24T10:23:01.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;《 &lt;strong&gt;文明 VI&lt;/strong&gt; 》是由 Firaxis Games 开发的回合策略游戏，是 文明系列的最新作品，同时是庆祝该系列 25 周年的作品（以下简称“文明 6”）。&lt;br&gt;本文汇总游玩过程中具备参考意义的一些玩法机制、数据、设定，仅供参考，所使用游戏版本为 Steam 文明 6 典藏版。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="娱乐中心" scheme="https://blog.onehat.cn/categories/%E5%A8%B1%E4%B9%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="游戏" scheme="https://blog.onehat.cn/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="文明" scheme="https://blog.onehat.cn/tags/%E6%96%87%E6%98%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文明 6 基准测试</title>
+    <link href="https://blog.onehat.cn/p/4104.html"/>
+    <id>https://blog.onehat.cn/p/4104.html</id>
+    <published>2024-08-14T09:29:39.000Z</published>
+    <updated>2024-08-14T09:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录自己 PC 设备的文明 6 基准测试。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="娱乐中心" scheme="https://blog.onehat.cn/categories/%E5%A8%B1%E4%B9%90%E4%B8%AD%E5%BF%83/"/>
+    
+    
+    <category term="游戏" scheme="https://blog.onehat.cn/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="文明" scheme="https://blog.onehat.cn/tags/%E6%96%87%E6%98%8E/"/>
+    
+    <category term="游戏测试" scheme="https://blog.onehat.cn/tags/%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE8 下 iStoreOS_x86 根分区扩容</title>
+    <link href="https://blog.onehat.cn/p/bd39.html"/>
+    <id>https://blog.onehat.cn/p/bd39.html</id>
+    <published>2024-06-05T02:29:39.000Z</published>
+    <updated>2024-06-05T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在 pve 上面安装了 iStoreOS 虚拟机，默认根分区只有 2.5 G 空间，此处记录扩容根分区过程（增加 20G）。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="iStoreOS" scheme="https://blog.onehat.cn/tags/iStoreOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NAS 快速跨磁盘拷贝数据</title>
+    <link href="https://blog.onehat.cn/p/fc3d.html"/>
+    <id>https://blog.onehat.cn/p/fc3d.html</id>
+    <published>2024-05-05T13:46:39.000Z</published>
+    <updated>2024-05-05T13:46:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录使用 &lt;code&gt;ServerSide Copy&lt;/code&gt;实现快速文件拷贝。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="NAS" scheme="https://blog.onehat.cn/tags/NAS/"/>
+    
+    <category term="SMB" scheme="https://blog.onehat.cn/tags/SMB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 镜像站网速比拼</title>
+    <link href="https://blog.onehat.cn/p/9a33.html"/>
+    <id>https://blog.onehat.cn/p/9a33.html</id>
+    <published>2024-03-12T16:29:39.000Z</published>
+    <updated>2024-03-12T16:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Ubuntu 镜像站网速比拼：下载速度哪家强？不服跑个 upgrade！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    <category term="里甲" scheme="https://blog.onehat.cn/categories/%E9%87%8C%E7%94%B2/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Ubuntu" scheme="https://blog.onehat.cn/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CloudflareTunnel 内网穿透</title>
+    <link href="https://blog.onehat.cn/p/cbe0.html"/>
+    <id>https://blog.onehat.cn/p/cbe0.html</id>
+    <published>2024-03-09T02:29:39.000Z</published>
+    <updated>2024-03-09T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录 CloudflareTunnel 内网穿透操作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Cloudflare" scheme="https://blog.onehat.cn/tags/Cloudflare/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转载--SSMS 格式化插件 SQL Printer for SSMS 破解</title>
+    <link href="https://blog.onehat.cn/p/89b9.html"/>
+    <id>https://blog.onehat.cn/p/89b9.html</id>
+    <published>2024-02-20T08:05:39.000Z</published>
+    <updated>2024-02-20T08:05:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;使用 dnSpy 去除插件的试用提示。&lt;/p&gt;
+&lt;p&gt;管理员权限打开 dnSpy，定位到指定函数，[编辑类]，修改后保存即可。&lt;/p&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://www.52pojie.cn/thread-1416605-1-1.html&quot;&gt;https://www.52pojie.cn/thread-1416605-1-1.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    <category term="获取信息源" scheme="https://blog.onehat.cn/categories/%E8%8E%B7%E5%8F%96%E4%BF%A1%E6%81%AF%E6%BA%90/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="MSSQL" scheme="https://blog.onehat.cn/tags/MSSQL/"/>
+    
+    <category term=".NET" scheme="https://blog.onehat.cn/tags/NET/"/>
+    
+    <category term="转载" scheme="https://blog.onehat.cn/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>syslog 实践</title>
+    <link href="https://blog.onehat.cn/p/7ea6.html"/>
+    <id>https://blog.onehat.cn/p/7ea6.html</id>
+    <published>2024-01-28T09:20:39.000Z</published>
+    <updated>2024-01-28T09:20:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;目标是要把各个设备的系统日志收集起来，便于集中管理。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="PVE" scheme="https://blog.onehat.cn/tags/PVE/"/>
+    
+    <category term="Linux" scheme="https://blog.onehat.cn/tags/Linux/"/>
+    
+    <category term="Unraid" scheme="https://blog.onehat.cn/tags/Unraid/"/>
+    
+    <category term="Debian" scheme="https://blog.onehat.cn/tags/Debian/"/>
+    
+    <category term="Windows" scheme="https://blog.onehat.cn/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows Server 下 MySQL5.7 配置</title>
+    <link href="https://blog.onehat.cn/p/7919.html"/>
+    <id>https://blog.onehat.cn/p/7919.html</id>
+    <published>2023-11-30T02:29:39.000Z</published>
+    <updated>2023-11-30T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录绿色版 MySQL5.7 的安装、配置。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Windows Server" scheme="https://blog.onehat.cn/tags/Windows-Server/"/>
+    
+    <category term="MySQL" scheme="https://blog.onehat.cn/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Everything HTTP 服务显示磁盘标签</title>
+    <link href="https://blog.onehat.cn/p/ebb.html"/>
+    <id>https://blog.onehat.cn/p/ebb.html</id>
+    <published>2023-10-25T02:29:39.000Z</published>
+    <updated>2023-10-25T02:29:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Everything 开启配置实现在 HTTP 服务器显示磁盘标签。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工作坊" scheme="https://blog.onehat.cn/categories/%E5%B7%A5%E4%BD%9C%E5%9D%8A/"/>
+    
+    
+    <category term="技术" scheme="https://blog.onehat.cn/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="软件" scheme="https://blog.onehat.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="Everything" scheme="https://blog.onehat.cn/tags/Everything/"/>
+    
+  </entry>
+  
+</feed>
